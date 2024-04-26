@@ -1,0 +1,41 @@
+# Todo Web App
+This project is a full-stack web application for managing a list of tasks. It allows users to add, delete, and mark tasks as complete or incomplete. The backend is built with Node.js, Express, and MongoDB, providing a RESTful API. The frontend is developed using React, showcasing dynamic user interactions.
+
+# Features
+- Create Tasks: Users can add new tasks to their todo list.
+- Read Tasks: Users can view all their tasks.
+- Update Tasks: Users can mark tasks as complete or incomplete.
+- Delete Tasks: Users can remove tasks from their list.
+
+# Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+ 1) Prerequisites
+Before you begin, ensure you have met the following requirements:
+- Node.js
+- npm (Node Package Manager) 
+- MongoDB 
+
+ 2) Installation
+- Clone the repository to your local machine 
+- Install the required npm packages 
+- Set up environment variables
+- Start the server and React app
+
+# Using the Application
+Once the application is running, you can use the provided React interface to manage your tasks:
+
+- Adding a Task: Enter the task description in the input field and click "Add Task".
+- Toggling Task Completion: Click on "Mark as Complete" or "Mark as Incomplete" to change the task's status.
+- Deleting a Task: Click on "Delete" to remove a task from the list.
+
+# The server exposes several RESTful endpoints for managing tasks:
+- POST /tasks: Create a new task.
+- GET /tasks: Retrieve all tasks.
+- PATCH /tasks/:id: Update a task's status.
+- DELETE /tasks/:id: Delete a task.
+
+# Technologies Used
+- Backend: Node.js, Express, MongoDB, Mongoose
+- Frontend: React
+- Others: Axios, CORS, dotenv for environment variable management
